@@ -1,0 +1,19 @@
+﻿<Window x:Class="StudentSystemClient.NewRegistration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewRegistration" Height="199" Width="330" ResizeMode="NoResize">
+    <Grid>
+        <TextBox Name="TxtID" HorizontalAlignment="Left" Height="23" Margin="88,18,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="224" IsEnabled="False"/>
+        <TextBox  Name="TxtName" HorizontalAlignment="Left" Height="23" Margin="88,46,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="224"/>
+        <DatePicker Name="DateBirthPicker" HorizontalAlignment="Left" Margin="88,74,0,0" VerticalAlignment="Top" Width="224"/>
+        <TextBox Name="TxtGPA" HorizontalAlignment="Left" Height="23" Margin="88,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" PreviewTextInput="TxtGPA_PreviewTextInput"/>
+        <CheckBox Name="CheckActive" Content="Active" HorizontalAlignment="Left" Margin="231,106,0,0" VerticalAlignment="Top" Height="18" Width="81"/>
+        <Label Content="Name :" HorizontalAlignment="Left" Margin="33,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Student ID :" HorizontalAlignment="Left" Margin="11,18,0,0" VerticalAlignment="Top"/>
+        <Label Content="DOB :" HorizontalAlignment="Left" Margin="41,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="GPA :" HorizontalAlignment="Left" Margin="42,100,0,0" VerticalAlignment="Top"/>
+        <Button Name ="BtnOK" Content="OK" HorizontalAlignment="Left" Margin="88,136,0,0" VerticalAlignment="Top" Width="75" Click="BtnOK_Click"/>
+        <Button Name="BtnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="168,136,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancel_Click"/>
+
+    </Grid>
+</Window>
